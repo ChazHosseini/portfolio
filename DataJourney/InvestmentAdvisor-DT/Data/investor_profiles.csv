@@ -1,0 +1,501 @@
+AgeGroup,RiskTolerance,InvestmentGoal,IncomeLevel,RecommendedPortfolio
+Senior,Medium,Education,High,Balanced
+Young,Medium,Education,High,Equity
+Senior,High,Education,Low,Equity
+Senior,Medium,Education,Low,FixedIncome
+Young,Low,Wealth Growth,Low,Equity
+Young,Low,Education,Medium,FixedIncome
+Senior,Low,Retirement,Low,FixedIncome
+Middle-aged,High,Retirement,High,Balanced
+Senior,Medium,Education,Low,Balanced
+Senior,Low,Education,High,Balanced
+Senior,High,Retirement,Medium,FixedIncome
+Senior,Medium,Retirement,High,Balanced
+Young,High,Wealth Growth,High,Equity
+Senior,Low,Retirement,Low,Equity
+Middle-aged,Low,Retirement,Low,FixedIncome
+Young,Low,Education,High,FixedIncome
+Middle-aged,High,Retirement,Low,Balanced
+Middle-aged,High,Wealth Growth,Medium,FixedIncome
+Middle-aged,Low,Retirement,Medium,FixedIncome
+Middle-aged,High,Education,Low,Equity
+Young,Low,Education,Medium,Equity
+Young,Low,Retirement,Low,Balanced
+Middle-aged,Medium,Education,High,FixedIncome
+Middle-aged,High,Wealth Growth,High,FixedIncome
+Young,Low,Wealth Growth,Medium,Equity
+Young,Low,Retirement,Low,FixedIncome
+Young,High,Retirement,Low,Equity
+Senior,Medium,Retirement,Medium,Balanced
+Senior,Medium,Education,High,Equity
+Senior,Low,Wealth Growth,Medium,FixedIncome
+Middle-aged,High,Wealth Growth,High,Balanced
+Senior,Medium,Education,Low,Equity
+Middle-aged,High,Wealth Growth,High,Equity
+Middle-aged,High,Retirement,Medium,Balanced
+Senior,Low,Retirement,Low,Balanced
+Middle-aged,Medium,Retirement,Medium,Equity
+Senior,Low,Wealth Growth,Medium,FixedIncome
+Senior,Medium,Retirement,High,Equity
+Young,Medium,Education,Medium,Balanced
+Senior,Medium,Education,High,Equity
+Young,Medium,Wealth Growth,Low,Balanced
+Senior,Medium,Education,High,Balanced
+Senior,High,Education,Low,FixedIncome
+Young,Low,Wealth Growth,High,Balanced
+Young,High,Retirement,Medium,Balanced
+Senior,Medium,Retirement,High,FixedIncome
+Middle-aged,Low,Retirement,High,Balanced
+Young,Medium,Wealth Growth,Low,FixedIncome
+Middle-aged,Low,Education,Medium,FixedIncome
+Middle-aged,High,Retirement,High,Balanced
+Middle-aged,Low,Retirement,Medium,Balanced
+Young,Low,Wealth Growth,High,Equity
+Middle-aged,Low,Retirement,High,FixedIncome
+Young,Low,Wealth Growth,Medium,Equity
+Middle-aged,Low,Education,High,Balanced
+Senior,Medium,Wealth Growth,Medium,Equity
+Senior,Low,Wealth Growth,High,FixedIncome
+Young,Low,Wealth Growth,Low,Equity
+Senior,High,Wealth Growth,Medium,FixedIncome
+Senior,Low,Education,High,Balanced
+Middle-aged,High,Education,High,Balanced
+Young,Medium,Retirement,Low,FixedIncome
+Middle-aged,Low,Education,Medium,Balanced
+Middle-aged,High,Education,High,Balanced
+Middle-aged,High,Retirement,Low,Balanced
+Middle-aged,Medium,Education,High,Balanced
+Middle-aged,Low,Wealth Growth,Medium,FixedIncome
+Middle-aged,Low,Wealth Growth,High,Equity
+Middle-aged,High,Retirement,High,Equity
+Young,Low,Retirement,High,Balanced
+Senior,High,Retirement,High,Equity
+Middle-aged,Low,Wealth Growth,Low,Equity
+Middle-aged,High,Education,Low,Balanced
+Middle-aged,Low,Wealth Growth,Medium,Balanced
+Middle-aged,Medium,Retirement,Low,Equity
+Middle-aged,Low,Education,Low,FixedIncome
+Middle-aged,Low,Education,Medium,Balanced
+Senior,Medium,Wealth Growth,Low,FixedIncome
+Senior,Low,Retirement,Low,Equity
+Middle-aged,Medium,Wealth Growth,Medium,Balanced
+Senior,Low,Education,Medium,FixedIncome
+Young,High,Wealth Growth,Medium,Balanced
+Middle-aged,High,Wealth Growth,High,Equity
+Young,Low,Retirement,High,FixedIncome
+Young,Low,Retirement,Medium,Equity
+Middle-aged,Low,Education,Medium,Equity
+Senior,High,Wealth Growth,Medium,Balanced
+Young,Low,Wealth Growth,High,FixedIncome
+Middle-aged,High,Wealth Growth,High,Equity
+Young,Medium,Education,Low,Equity
+Young,High,Education,Low,FixedIncome
+Young,High,Retirement,Medium,Equity
+Young,Medium,Retirement,High,Equity
+Senior,High,Retirement,High,FixedIncome
+Young,Low,Wealth Growth,High,FixedIncome
+Young,Low,Wealth Growth,Medium,FixedIncome
+Young,High,Retirement,Low,FixedIncome
+Senior,Low,Wealth Growth,Medium,Balanced
+Young,High,Retirement,Low,FixedIncome
+Young,Low,Education,Low,Balanced
+Senior,Low,Retirement,Medium,Balanced
+Senior,High,Education,Low,Balanced
+Senior,Low,Wealth Growth,Low,Equity
+Young,High,Retirement,High,Balanced
+Senior,Low,Wealth Growth,Low,Balanced
+Senior,Low,Education,Medium,Equity
+Young,Medium,Education,Medium,Equity
+Senior,Medium,Education,Low,Equity
+Young,High,Wealth Growth,High,FixedIncome
+Middle-aged,Medium,Wealth Growth,High,Equity
+Senior,High,Wealth Growth,Low,Equity
+Middle-aged,Medium,Wealth Growth,Low,Balanced
+Young,Low,Education,Medium,Equity
+Senior,High,Education,Low,FixedIncome
+Young,High,Retirement,High,Equity
+Middle-aged,Low,Retirement,Low,FixedIncome
+Young,High,Wealth Growth,Medium,Equity
+Senior,High,Education,Medium,Equity
+Senior,Medium,Education,Medium,Equity
+Middle-aged,High,Education,Medium,Equity
+Young,Low,Retirement,Medium,FixedIncome
+Senior,Medium,Retirement,Low,FixedIncome
+Middle-aged,Medium,Education,Low,Balanced
+Senior,Low,Education,Low,FixedIncome
+Senior,Low,Education,Low,Equity
+Young,Medium,Retirement,Medium,Balanced
+Senior,High,Education,High,Balanced
+Young,Medium,Education,Low,Balanced
+Senior,Low,Wealth Growth,High,Equity
+Middle-aged,Medium,Wealth Growth,Low,FixedIncome
+Senior,Low,Retirement,Low,Equity
+Young,Medium,Education,High,Balanced
+Young,High,Education,Medium,Equity
+Middle-aged,Medium,Wealth Growth,Low,Equity
+Senior,Medium,Retirement,Low,FixedIncome
+Senior,Low,Wealth Growth,Low,FixedIncome
+Middle-aged,Low,Wealth Growth,High,Balanced
+Senior,Low,Wealth Growth,Medium,Equity
+Senior,Medium,Wealth Growth,High,Equity
+Young,High,Education,High,FixedIncome
+Senior,Low,Education,Medium,Equity
+Senior,Low,Wealth Growth,High,Equity
+Middle-aged,Medium,Retirement,Medium,Equity
+Middle-aged,Low,Retirement,Low,FixedIncome
+Young,High,Retirement,Medium,Balanced
+Senior,High,Retirement,Low,Balanced
+Senior,Low,Wealth Growth,High,Equity
+Senior,Low,Education,High,Balanced
+Young,Medium,Retirement,Low,FixedIncome
+Young,High,Wealth Growth,High,FixedIncome
+Middle-aged,High,Retirement,Medium,Balanced
+Young,Low,Retirement,Low,Balanced
+Senior,Medium,Wealth Growth,High,Equity
+Senior,High,Education,Low,Balanced
+Young,High,Education,Medium,Equity
+Senior,Medium,Wealth Growth,Medium,Equity
+Senior,Medium,Education,High,FixedIncome
+Young,High,Wealth Growth,Medium,FixedIncome
+Young,High,Wealth Growth,Low,FixedIncome
+Senior,Medium,Wealth Growth,Medium,FixedIncome
+Senior,High,Education,Low,Balanced
+Senior,Low,Wealth Growth,Low,FixedIncome
+Middle-aged,Low,Retirement,Medium,Balanced
+Middle-aged,Medium,Education,High,FixedIncome
+Middle-aged,Medium,Education,Medium,Balanced
+Young,Medium,Education,Low,Equity
+Middle-aged,Low,Education,Low,Balanced
+Young,High,Retirement,Medium,Balanced
+Young,Low,Education,High,FixedIncome
+Middle-aged,High,Education,High,Balanced
+Middle-aged,Low,Wealth Growth,Low,Equity
+Middle-aged,High,Education,Low,Equity
+Senior,Low,Retirement,High,FixedIncome
+Middle-aged,Medium,Retirement,Medium,Equity
+Senior,Low,Retirement,Low,Balanced
+Young,High,Retirement,Low,Equity
+Senior,Low,Education,High,FixedIncome
+Middle-aged,Low,Education,Medium,Balanced
+Young,Low,Retirement,High,FixedIncome
+Young,Medium,Retirement,Medium,Balanced
+Young,Low,Education,Medium,Equity
+Senior,Medium,Retirement,Medium,FixedIncome
+Middle-aged,Medium,Wealth Growth,Low,FixedIncome
+Young,Low,Retirement,High,Balanced
+Young,Low,Retirement,High,FixedIncome
+Young,Low,Wealth Growth,Medium,Balanced
+Senior,High,Wealth Growth,Low,Balanced
+Senior,Low,Education,Low,Balanced
+Middle-aged,Medium,Education,High,Balanced
+Senior,Low,Wealth Growth,Low,Equity
+Young,High,Wealth Growth,Low,Balanced
+Middle-aged,Low,Education,Medium,FixedIncome
+Young,High,Retirement,Low,Equity
+Young,High,Wealth Growth,Medium,FixedIncome
+Senior,Low,Education,High,Equity
+Middle-aged,Medium,Retirement,Low,Balanced
+Senior,High,Wealth Growth,High,Equity
+Senior,Low,Retirement,High,Equity
+Middle-aged,Low,Education,Low,FixedIncome
+Young,Medium,Wealth Growth,Low,FixedIncome
+Young,High,Retirement,High,Balanced
+Middle-aged,High,Wealth Growth,Low,Equity
+Young,Low,Retirement,Medium,Equity
+Middle-aged,Low,Education,Medium,Equity
+Middle-aged,Medium,Education,Low,Balanced
+Senior,Medium,Wealth Growth,High,Balanced
+Middle-aged,High,Retirement,Low,Balanced
+Senior,High,Wealth Growth,Low,Balanced
+Young,Low,Wealth Growth,High,Balanced
+Young,High,Retirement,High,FixedIncome
+Young,Medium,Retirement,Medium,Equity
+Young,Medium,Retirement,High,Equity
+Senior,Low,Education,Medium,Equity
+Young,Medium,Wealth Growth,High,Equity
+Middle-aged,Medium,Wealth Growth,Low,Equity
+Middle-aged,Medium,Education,Medium,Equity
+Middle-aged,Medium,Retirement,Medium,Equity
+Senior,Low,Education,Medium,Equity
+Young,Low,Education,Low,FixedIncome
+Young,High,Education,Low,Equity
+Young,Medium,Wealth Growth,Low,FixedIncome
+Senior,High,Education,Low,Balanced
+Middle-aged,Low,Wealth Growth,Low,Equity
+Middle-aged,Low,Wealth Growth,Medium,Balanced
+Young,Low,Wealth Growth,Low,Balanced
+Middle-aged,Low,Retirement,Medium,Balanced
+Middle-aged,Low,Wealth Growth,Low,FixedIncome
+Senior,Low,Wealth Growth,High,Balanced
+Senior,Low,Retirement,Medium,Balanced
+Senior,Medium,Wealth Growth,High,Balanced
+Senior,High,Education,Medium,Equity
+Young,Low,Education,High,Equity
+Senior,Medium,Wealth Growth,Low,FixedIncome
+Middle-aged,Medium,Retirement,Low,FixedIncome
+Young,High,Education,Low,Equity
+Middle-aged,Low,Retirement,Medium,FixedIncome
+Middle-aged,High,Retirement,High,Equity
+Middle-aged,Low,Education,Low,Balanced
+Senior,Medium,Retirement,High,Balanced
+Senior,Medium,Education,High,FixedIncome
+Young,Medium,Retirement,Low,Equity
+Young,Medium,Education,Low,Equity
+Senior,High,Wealth Growth,High,FixedIncome
+Middle-aged,Low,Education,Low,Equity
+Young,Low,Education,Low,Balanced
+Senior,High,Education,Low,FixedIncome
+Senior,Low,Education,Medium,FixedIncome
+Senior,Medium,Retirement,High,Equity
+Middle-aged,Low,Wealth Growth,High,FixedIncome
+Senior,Medium,Education,Medium,Equity
+Senior,High,Retirement,High,Equity
+Senior,Low,Wealth Growth,Low,Equity
+Senior,High,Wealth Growth,High,Equity
+Young,Low,Wealth Growth,Low,Equity
+Young,Medium,Wealth Growth,Medium,FixedIncome
+Senior,High,Education,Low,Balanced
+Middle-aged,Low,Education,High,Balanced
+Young,Medium,Retirement,High,FixedIncome
+Senior,High,Retirement,High,FixedIncome
+Young,High,Retirement,Medium,Balanced
+Young,Low,Wealth Growth,Medium,Balanced
+Middle-aged,Low,Wealth Growth,High,Balanced
+Senior,Low,Education,Low,Balanced
+Senior,Medium,Wealth Growth,Medium,Balanced
+Middle-aged,Low,Wealth Growth,High,Equity
+Middle-aged,High,Wealth Growth,High,FixedIncome
+Senior,High,Retirement,Medium,Equity
+Senior,Low,Retirement,Medium,Balanced
+Middle-aged,Low,Education,Medium,Balanced
+Young,High,Wealth Growth,Low,Balanced
+Young,Medium,Wealth Growth,Low,Equity
+Middle-aged,Low,Education,High,Equity
+Young,Low,Wealth Growth,Medium,Balanced
+Middle-aged,High,Wealth Growth,Low,Equity
+Young,Low,Retirement,Medium,Equity
+Young,Medium,Education,High,Balanced
+Senior,High,Education,Low,Equity
+Senior,Low,Education,Low,FixedIncome
+Young,High,Education,Low,FixedIncome
+Young,Low,Retirement,High,FixedIncome
+Senior,Low,Retirement,Medium,FixedIncome
+Senior,Low,Wealth Growth,Low,Balanced
+Senior,Medium,Wealth Growth,High,Balanced
+Middle-aged,Medium,Wealth Growth,Medium,Balanced
+Young,High,Wealth Growth,High,FixedIncome
+Senior,Low,Retirement,Medium,FixedIncome
+Young,Low,Education,High,Equity
+Middle-aged,Medium,Retirement,Medium,Equity
+Middle-aged,Low,Wealth Growth,Low,FixedIncome
+Senior,Medium,Retirement,Medium,FixedIncome
+Middle-aged,Low,Education,High,FixedIncome
+Young,High,Education,High,FixedIncome
+Senior,Low,Retirement,Medium,Equity
+Young,Low,Retirement,Low,FixedIncome
+Young,Medium,Retirement,Low,Equity
+Middle-aged,Low,Wealth Growth,Medium,FixedIncome
+Middle-aged,Low,Retirement,Medium,FixedIncome
+Middle-aged,Medium,Retirement,High,FixedIncome
+Middle-aged,High,Retirement,Low,Equity
+Middle-aged,High,Education,Medium,Equity
+Senior,Medium,Education,Low,Balanced
+Young,Medium,Wealth Growth,Medium,FixedIncome
+Young,Medium,Wealth Growth,Medium,Balanced
+Young,Medium,Education,Low,Balanced
+Young,Medium,Education,Medium,Equity
+Middle-aged,High,Education,Medium,Equity
+Young,High,Retirement,High,Balanced
+Senior,Medium,Retirement,Medium,FixedIncome
+Senior,Low,Education,Medium,Equity
+Young,Medium,Retirement,Medium,FixedIncome
+Young,Low,Retirement,High,FixedIncome
+Senior,Medium,Wealth Growth,Low,Balanced
+Senior,Medium,Education,High,Balanced
+Middle-aged,High,Education,High,Balanced
+Senior,Low,Retirement,Low,Balanced
+Middle-aged,Low,Education,High,Equity
+Middle-aged,High,Wealth Growth,Low,Equity
+Middle-aged,High,Wealth Growth,High,Balanced
+Middle-aged,High,Wealth Growth,Low,Equity
+Middle-aged,High,Education,Medium,Balanced
+Young,Low,Education,High,FixedIncome
+Senior,Low,Education,High,FixedIncome
+Middle-aged,Medium,Education,High,FixedIncome
+Senior,Medium,Education,High,Balanced
+Senior,High,Wealth Growth,Medium,FixedIncome
+Middle-aged,High,Retirement,High,Equity
+Young,High,Wealth Growth,Medium,FixedIncome
+Middle-aged,Medium,Education,Medium,FixedIncome
+Young,Medium,Wealth Growth,Medium,FixedIncome
+Senior,Medium,Education,Medium,Equity
+Young,Medium,Education,Low,Balanced
+Young,Medium,Wealth Growth,Low,Equity
+Young,Medium,Education,High,Balanced
+Senior,Medium,Retirement,Low,Balanced
+Senior,High,Education,Low,FixedIncome
+Young,High,Retirement,High,Balanced
+Young,High,Retirement,High,Equity
+Middle-aged,High,Education,High,Equity
+Young,Medium,Wealth Growth,Low,Balanced
+Middle-aged,Low,Retirement,Low,FixedIncome
+Young,Medium,Wealth Growth,High,FixedIncome
+Middle-aged,Low,Retirement,Medium,Equity
+Senior,High,Education,High,FixedIncome
+Young,Medium,Education,Medium,Balanced
+Young,High,Retirement,Medium,Balanced
+Young,Medium,Education,High,Equity
+Young,High,Retirement,High,Balanced
+Middle-aged,Low,Education,High,Equity
+Young,Low,Wealth Growth,Low,Balanced
+Senior,Low,Education,Medium,Equity
+Senior,Medium,Wealth Growth,Low,FixedIncome
+Young,Low,Education,Low,Balanced
+Senior,Medium,Wealth Growth,High,Balanced
+Young,Low,Education,Low,Equity
+Young,Low,Wealth Growth,High,Equity
+Senior,Medium,Retirement,Medium,Balanced
+Young,Medium,Retirement,High,Equity
+Senior,Low,Wealth Growth,Low,Balanced
+Middle-aged,Medium,Education,Low,FixedIncome
+Young,Low,Wealth Growth,High,Equity
+Middle-aged,Medium,Education,High,Balanced
+Senior,High,Retirement,Low,FixedIncome
+Middle-aged,High,Education,Medium,FixedIncome
+Middle-aged,High,Retirement,Medium,Balanced
+Senior,High,Education,High,Equity
+Middle-aged,High,Education,Medium,Balanced
+Middle-aged,Low,Education,Low,FixedIncome
+Senior,High,Wealth Growth,High,Balanced
+Middle-aged,High,Wealth Growth,Low,Equity
+Senior,High,Retirement,Low,FixedIncome
+Middle-aged,High,Retirement,Medium,Balanced
+Senior,Medium,Wealth Growth,High,Equity
+Senior,Low,Retirement,High,FixedIncome
+Middle-aged,High,Wealth Growth,Medium,Equity
+Middle-aged,High,Education,Low,FixedIncome
+Middle-aged,High,Retirement,Low,Balanced
+Young,Low,Retirement,Low,Equity
+Young,Medium,Wealth Growth,Low,FixedIncome
+Young,Low,Retirement,High,Equity
+Senior,Medium,Retirement,High,Equity
+Middle-aged,High,Education,Medium,Balanced
+Senior,High,Retirement,Medium,Equity
+Young,Low,Education,High,FixedIncome
+Middle-aged,Low,Wealth Growth,High,FixedIncome
+Senior,Medium,Retirement,Low,FixedIncome
+Middle-aged,Medium,Education,Low,FixedIncome
+Senior,Low,Wealth Growth,Medium,Balanced
+Middle-aged,Medium,Retirement,High,Equity
+Young,Low,Wealth Growth,Medium,Balanced
+Young,Medium,Retirement,High,Equity
+Middle-aged,Low,Wealth Growth,Low,Equity
+Senior,Low,Wealth Growth,Medium,Equity
+Young,Low,Education,Medium,Balanced
+Young,Medium,Wealth Growth,High,Equity
+Young,Medium,Retirement,Low,Balanced
+Middle-aged,Medium,Retirement,Medium,FixedIncome
+Middle-aged,Low,Education,Low,FixedIncome
+Senior,Medium,Retirement,Medium,Equity
+Senior,Medium,Retirement,Low,Balanced
+Senior,Low,Retirement,High,FixedIncome
+Middle-aged,High,Wealth Growth,Medium,Balanced
+Middle-aged,Low,Wealth Growth,Medium,Balanced
+Senior,Medium,Retirement,Low,Equity
+Senior,Low,Education,Low,FixedIncome
+Middle-aged,High,Wealth Growth,Medium,Equity
+Senior,Low,Education,High,Equity
+Young,Medium,Retirement,Low,FixedIncome
+Middle-aged,High,Retirement,Low,FixedIncome
+Senior,Medium,Wealth Growth,Low,Balanced
+Middle-aged,High,Retirement,Medium,FixedIncome
+Young,High,Wealth Growth,Medium,Balanced
+Middle-aged,Low,Retirement,Medium,Balanced
+Middle-aged,Low,Retirement,Medium,Balanced
+Middle-aged,Medium,Wealth Growth,High,FixedIncome
+Middle-aged,Low,Wealth Growth,High,Equity
+Young,Low,Wealth Growth,Medium,Balanced
+Middle-aged,High,Retirement,High,Equity
+Middle-aged,Low,Retirement,Low,Equity
+Senior,High,Education,Low,FixedIncome
+Middle-aged,High,Wealth Growth,Low,Equity
+Senior,High,Retirement,Medium,Equity
+Young,Medium,Retirement,Low,FixedIncome
+Young,Medium,Wealth Growth,High,Balanced
+Young,Medium,Education,Medium,Equity
+Young,High,Wealth Growth,High,FixedIncome
+Senior,Medium,Education,Low,Equity
+Middle-aged,Medium,Retirement,Low,Equity
+Young,Low,Education,Low,Balanced
+Middle-aged,Medium,Retirement,Medium,Equity
+Senior,Medium,Wealth Growth,High,FixedIncome
+Senior,High,Wealth Growth,Medium,Equity
+Senior,High,Wealth Growth,Medium,Balanced
+Young,High,Education,Low,Balanced
+Middle-aged,High,Retirement,Medium,FixedIncome
+Middle-aged,High,Wealth Growth,Medium,Balanced
+Middle-aged,High,Wealth Growth,Low,Equity
+Senior,Medium,Retirement,Medium,Balanced
+Young,High,Wealth Growth,Low,FixedIncome
+Senior,High,Retirement,Low,Balanced
+Senior,Low,Retirement,Low,Balanced
+Middle-aged,Medium,Retirement,Low,Balanced
+Senior,Medium,Retirement,Medium,FixedIncome
+Middle-aged,Medium,Retirement,Low,Balanced
+Young,High,Education,Low,Balanced
+Middle-aged,High,Wealth Growth,Medium,Equity
+Young,High,Education,Medium,FixedIncome
+Middle-aged,Low,Wealth Growth,High,Balanced
+Senior,High,Education,Medium,FixedIncome
+Senior,Low,Retirement,Medium,Balanced
+Young,Medium,Wealth Growth,High,Balanced
+Young,High,Wealth Growth,Medium,Balanced
+Young,Low,Education,Medium,Equity
+Middle-aged,Low,Education,Medium,Equity
+Middle-aged,High,Wealth Growth,Medium,Equity
+Young,Medium,Education,High,FixedIncome
+Senior,Medium,Education,Medium,FixedIncome
+Middle-aged,Medium,Education,Medium,Equity
+Middle-aged,Low,Retirement,High,FixedIncome
+Middle-aged,Low,Retirement,Low,Balanced
+Young,Low,Education,High,Balanced
+Young,Low,Education,Low,Balanced
+Young,Medium,Retirement,High,Equity
+Young,High,Retirement,High,FixedIncome
+Young,Low,Wealth Growth,Medium,Equity
+Senior,Low,Wealth Growth,Low,FixedIncome
+Senior,Medium,Retirement,Medium,Balanced
+Young,High,Education,Low,Equity
+Middle-aged,High,Education,High,FixedIncome
+Young,Medium,Education,High,FixedIncome
+Senior,Medium,Education,Low,Balanced
+Senior,High,Wealth Growth,Medium,Equity
+Middle-aged,Low,Retirement,Medium,Equity
+Senior,High,Education,Medium,Equity
+Young,Medium,Wealth Growth,Medium,Balanced
+Middle-aged,Low,Education,High,Equity
+Young,Low,Retirement,High,Balanced
+Young,Medium,Wealth Growth,High,Balanced
+Middle-aged,Medium,Retirement,High,Balanced
+Young,Medium,Retirement,High,FixedIncome
+Senior,High,Wealth Growth,Medium,Equity
+Young,High,Wealth Growth,Medium,Equity
+Middle-aged,Low,Wealth Growth,Medium,Balanced
+Middle-aged,Medium,Wealth Growth,Medium,Balanced
+Middle-aged,Low,Wealth Growth,High,Equity
+Young,Low,Wealth Growth,High,Balanced
+Middle-aged,Low,Wealth Growth,High,Equity
+Middle-aged,Low,Education,Low,FixedIncome
+Young,Medium,Retirement,Medium,Balanced
+Senior,Low,Wealth Growth,Medium,Equity
+Young,Medium,Education,High,Balanced
+Middle-aged,Medium,Education,Medium,Equity
+Middle-aged,High,Education,Medium,Equity
+Young,Medium,Retirement,High,Balanced
+Senior,High,Wealth Growth,Low,FixedIncome
+Middle-aged,Medium,Education,Low,Equity
+Middle-aged,Medium,Retirement,Low,Equity
+Middle-aged,Medium,Retirement,High,Equity
+Young,High,Retirement,Medium,FixedIncome
+Middle-aged,High,Education,High,FixedIncome
+Senior,Low,Wealth Growth,High,Balanced
