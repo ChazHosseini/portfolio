@@ -72,6 +72,6 @@ Feel free to explore this portfolio and reach out to discuss opportunities or co
 
 - **Email**: [chaz.ho16@gmail.com](mailto:chaz.ho16@gmail.com)  
 - **Phone**: +1 (604) 401-7627  
-- **Location**: North Vancouver, BC, Canada  
+- **Location**: BC, Canada  
 - **LinkedIn**: [https://www.linkedin.com/in/chaz16/](#)
 
