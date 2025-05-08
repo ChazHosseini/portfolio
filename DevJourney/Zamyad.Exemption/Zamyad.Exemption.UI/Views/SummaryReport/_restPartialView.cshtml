@@ -1,0 +1,112 @@
+﻿@using Zamyad.Exemption.Data.SocialDB;
+@using Zamyad.Exemption.Service;
+@model List<PersRestView>;
+<div class="row">
+    <div class="border fw-bold mt-1">
+        سوابق استراحت
+    </div>
+</div>
+
+<div class="row">
+    @*table for Rest*@
+    <table class="table table-bordered mb-0">
+        <thead>
+            <tr>
+                <th>رديف</th>
+                <th>مركز هزينه </th>
+                <th>نام واحد</th>
+             
+                <th>
+                    تاریخ شروع
+                </th>
+                <th>
+                    تاریخ پایان
+                </th>
+                <th>
+                    مدت بیماری
+                </th>
+                <th>
+                    نوع بیماری
+                </th>
+                <th>
+                    پزشک شرکت
+                </th>
+                <th>
+                    پزشک بیرون شرکت
+                </th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int counter = 0;
+
+                foreach (var rest in Model)
+                {
+                    <tr>
+                        <td>@(++counter)</td>
+                        <td>@rest.CostCode</td>
+                        <td>@rest.CostDesc</td>
+                        <td>@rest.Fdate</td>
+                        <td>@rest.Edate</td>
+                        <td>
+                            @{
+                                var endResult = rest.Edate.ToPersian();
+                                var startResult = rest.Fdate.ToPersian();
+
+                                var dif = endResult.IsError != true && startResult.IsError != true ?
+                                endResult.CurentDataTime - startResult.CurentDataTime : null;
+
+                            }
+                            @dif?.Days
+                        
+                        </td>
+                        <td>@rest.DiseaseType</td>
+                        <td>@rest.IsLocalDoc</td>
+                        <td>@rest.IsGeneralDoc</td>
+                        
+                    </tr>
+                }
+
+                if (counter < 5)
+                {
+                    for (int i = counter; i < 5; i++)
+                    {
+                        <tr>
+                          
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          
+
+                        </tr>
+                    }
+                }
+
+            }
+
+           
+        </tbody>
+    </table>
+</div>
+<div class="row">
+    <div class="col-2 border mt-0">
+        به پیوست مراجعه شود
+    </div>
+    <div class="col border">
+    </div>
+</div>
+
+<div class="row">
+    <div class="border fw-bold">
+        ملاحظات
+    </div>
+
+</div>

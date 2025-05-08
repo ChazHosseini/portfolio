@@ -1,0 +1,29 @@
+﻿.bodyy {
+    font-size: 12px !important;
+}
+
+
+.Container-A4 {
+    width: 21cm;
+    height: 25.7cm;
+}
+
+.Header {
+    width: 17.5cm;
+}
+
+
+
+@media print {
+    .header, .footer {
+        display: none;
+    }
+
+    .printbtn {
+        display: none;
+    }
+
+    
+
+    
+}

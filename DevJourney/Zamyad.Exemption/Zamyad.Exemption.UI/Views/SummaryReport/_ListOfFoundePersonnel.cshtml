@@ -1,0 +1,19 @@
+﻿@model IEnumerable<PersonnelInfoViewModel>
+<div class="row mt-4">
+    @foreach (var person in Model)
+    {
+        <div class="col-3 mb-4">
+            <div class="card" style="width: 18rem;">
+                @*<img src="@person.Picture" class="card-img-top" alt="...">*@
+                <div class="card-body">
+                    <h5 class="card-title">@person.FirstName</h5>
+                    <p>@person.PersNo</p>
+                    <p>@person.LastName</p>
+      
+                    <a  href="/SummaryReport/GetFullSummaryReport/@person.PersNo"  class="btn btn-primary">مشاهده پرونده</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+

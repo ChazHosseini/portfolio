@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C81005EC-AD54-441F-B556-341E3C2A32A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EWT</RootNamespace>
+    <AssemblyName>EWT</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>team-management %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+    <Reference Include="Janus.Windows.Common.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+    <Reference Include="Janus.Windows.ExplorerBar.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="JSCore, Version=1.0.1.2, Culture=neutral, PublicKeyToken=d6b823da6d3fa04b, processorArchitecture=x86">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\JSCore.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.App, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\MyDownloader.App.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\MyDownloader.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.Extension, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\MyDownloader.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenWebKitSharp, Version=3.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\OpenWebKitSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Stimulsoft.Base, Version=2017.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a" />
+    <Reference Include="Stimulsoft.Controls, Version=2017.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a" />
+    <Reference Include="Stimulsoft.Controls.Win, Version=2017.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a" />
+    <Reference Include="Stimulsoft.Design, Version=2017.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Stimulsoft Reports 2017.2.2\Libs\Net\Stimulsoft.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2017.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a" />
+    <Reference Include="Stimulsoft.Report.Win, Version=2017.2.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabStrip, Version=2.0.2523.29272, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenWebKitSharp.1.0.7\lib\net40\TabStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl.Designer.cs">
+      <DependentUpon>BaseUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NativeMethods.cs" />
+    <Compile Include="Controls\OvalPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataPickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPickerForm.Designer.cs">
+      <DependentUpon>DataPickerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enums\BusinessRoleEnum.cs" />
+    <Compile Include="Enums\EWTDailyTabsEnum.cs" />
+    <Compile Include="Enums\FormDataModeEnum.cs" />
+    <Compile Include="Enums\NPCategoriesEnum.cs" />
+    <Compile Include="EWTAuditorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTAuditorsForm.Designer.cs">
+      <DependentUpon>EWTAuditorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTCheckmansForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTCheckmansForm.Designer.cs">
+      <DependentUpon>EWTCheckmansForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTDailyInputShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTDailyInputShowForm.Designer.cs">
+      <DependentUpon>EWTDailyInputShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTDailyInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTDailyInputForm.Designer.cs">
+      <DependentUpon>EWTDailyInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTDailyInputPickDateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTDailyInputPickDateForm.Designer.cs">
+      <DependentUpon>EWTDailyInputPickDateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTForm.Designer.cs">
+      <DependentUpon>EWTForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTMasoolsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTMasoolsForm.Designer.cs">
+      <DependentUpon>EWTMasoolsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTMemebersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTMemebersForm.Designer.cs">
+      <DependentUpon>EWTMemebersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailsForm.Designer.cs">
+      <DependentUpon>FailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EWTDailyInput.cs" />
+    <Compile Include="Models\EWTDailyInputACD.cs" />
+    <Compile Include="Models\EWTDailyInputInitialDate.cs" />
+    <Compile Include="Models\EWTDailyInputNP.cs" />
+    <Compile Include="Models\EWTDailyInputNQA.cs" />
+    <Compile Include="Models\EWTDailyInputNQC.cs" />
+    <Compile Include="Models\EWTDailyInputNR.cs" />
+    <Compile Include="Models\EWTAuditor.cs" />
+    <Compile Include="Models\EWTCheckMan.cs" />
+    <Compile Include="Models\EWTDailyInputPickDateInfo.cs" />
+    <Compile Include="Models\EWTDailyInputREW.cs" />
+    <Compile Include="Models\EWTDailyInputSTP.cs" />
+    <Compile Include="Models\EWTDailyInputSUG.cs" />
+    <Compile Include="Models\EWTDailyInputWAS.cs" />
+    <Compile Include="Models\EwtMasool.cs" />
+    <Compile Include="Models\EwtMember.cs" />
+    <Compile Include="Models\Ewt.cs" />
+    <Compile Include="Models\Fail.cs" />
+    <Compile Include="Models\NewNPs.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\SelectItem.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="NewNPsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewNPsForm.Designer.cs">
+      <DependentUpon>NewNPsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NPAggregateReportInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NPAggregateReportInputForm.Designer.cs">
+      <DependentUpon>NPAggregateReportInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NPReportInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NPReportInputForm.Designer.cs">
+      <DependentUpon>NPReportInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EWTReworkAggregateReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTReworkAggregateReportForm.Designer.cs">
+      <DependentUpon>EWTReworkAggregateReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NQcAggregateInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NQcAggregateInputForm.Designer.cs">
+      <DependentUpon>NQcAggregateInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReworkAggregateReportInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReworkAggregateReportInputForm.Designer.cs">
+      <DependentUpon>ReworkAggregateReportInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NrAggregateInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NrAggregateInputForm.Designer.cs">
+      <DependentUpon>NrAggregateInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NQaAggregateInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NQaAggregateInputForm.Designer.cs">
+      <DependentUpon>NQaAggregateInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NQAReportInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NQAReportInputForm.Designer.cs">
+      <DependentUpon>NQAReportInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NRReportInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NRReportInputForm.Designer.cs">
+      <DependentUpon>NRReportInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewerForm.Designer.cs">
+      <DependentUpon>ReportViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structs\UserInfoStruct.cs" />
+    <Compile Include="EWTAssignMembersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EWTAssignMembersForm.Designer.cs">
+      <DependentUpon>EWTAssignMembersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumOfIndicatorsReportInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumOfIndicatorsReportInputForm.Designer.cs">
+      <DependentUpon>SumOfIndicatorsReportInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\ACDUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\ACDUserControl.Designer.cs">
+      <DependentUpon>ACDUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NPUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NPUserControl.Designer.cs">
+      <DependentUpon>NPUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NQAUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NQAUserControl.Designer.cs">
+      <DependentUpon>NQAUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NQCUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NQCUserControl.Designer.cs">
+      <DependentUpon>NQCUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NRUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\NRUserControl.Designer.cs">
+      <DependentUpon>NRUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\REWUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\REWUserControl.Designer.cs">
+      <DependentUpon>REWUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\STPUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\STPUserControl.Designer.cs">
+      <DependentUpon>STPUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\SUGUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\SUGUserControl.Designer.cs">
+      <DependentUpon>SUGUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\WASUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyInputForm\WASUserControl.Designer.cs">
+      <DependentUpon>WASUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DataPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataPicker.Designer.cs">
+      <DependentUpon>DataPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SearchBox.Designer.cs">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserInfo.Designer.cs">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm.Designer.cs">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Tools.cs" />
+    <Compile Include="Controls\WebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl.resx">
+      <DependentUpon>BaseUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPickerForm.resx">
+      <DependentUpon>DataPickerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTAuditorsForm.resx">
+      <DependentUpon>EWTAuditorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTCheckmansForm.resx">
+      <DependentUpon>EWTCheckmansForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTDailyInputShowForm.resx">
+      <DependentUpon>EWTDailyInputShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTDailyInputForm.resx">
+      <DependentUpon>EWTDailyInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTDailyInputPickDateForm.resx">
+      <DependentUpon>EWTDailyInputPickDateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTForm.resx">
+      <DependentUpon>EWTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTMasoolsForm.resx">
+      <DependentUpon>EWTMasoolsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTMemebersForm.resx">
+      <DependentUpon>EWTMemebersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailsForm.resx">
+      <DependentUpon>FailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewNPsForm.resx">
+      <DependentUpon>NewNPsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NPAggregateReportInputForm.resx">
+      <DependentUpon>NPAggregateReportInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NPReportInputForm.resx">
+      <DependentUpon>NPReportInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EWTReworkAggregateReportForm.resx">
+      <DependentUpon>EWTReworkAggregateReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NQcAggregateInputForm.resx">
+      <DependentUpon>NQcAggregateInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReworkAggregateReportInputForm.resx">
+      <DependentUpon>ReworkAggregateReportInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NrAggregateInputForm.resx">
+      <DependentUpon>NrAggregateInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NQaAggregateInputForm.resx">
+      <DependentUpon>NQaAggregateInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NQAReportInputForm.resx">
+      <DependentUpon>NQAReportInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NRReportInputForm.resx">
+      <DependentUpon>NRReportInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="EWTAssignMembersForm.resx">
+      <DependentUpon>EWTAssignMembersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewerForm.resx">
+      <DependentUpon>ReportViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumOfIndicatorsReportInputForm.resx">
+      <DependentUpon>SumOfIndicatorsReportInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\ACDUserControl.resx">
+      <DependentUpon>ACDUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\NPUserControl.resx">
+      <DependentUpon>NPUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\NQAUserControl.resx">
+      <DependentUpon>NQAUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\NQCUserControl.resx">
+      <DependentUpon>NQCUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\NRUserControl.resx">
+      <DependentUpon>NRUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\REWUserControl.resx">
+      <DependentUpon>REWUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\STPUserControl.resx">
+      <DependentUpon>STPUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\SUGUserControl.resx">
+      <DependentUpon>SUGUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyInputForm\WASUserControl.resx">
+      <DependentUpon>WASUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataPicker.resx">
+      <DependentUpon>DataPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SearchBox.resx">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserInfo.resx">
+      <DependentUpon>UserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm.resx">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_mis-quince-png_3189860.png" />
+    <None Include="Resources\png-transparent-orange-and-white-logo-operational-efficiency-business-computer-icons-operations-management-operational-excellence-icon-operations-drawing-miscellaneous-text-service-thumbnail.png" />
+    <None Include="Resources\900746.JPG" />
+    <None Include="Resources\943546.JPG" />
+    <None Include="Resources\Login.jpg" />
+    <None Include="Resources\NoPic.bmp" />
+    <None Include="Resources\male-user-icon-vector-8865469.jpg" />
+    <Content Include="Resources\NoPic.jpg" />
+    <Content Include="team-management %281%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

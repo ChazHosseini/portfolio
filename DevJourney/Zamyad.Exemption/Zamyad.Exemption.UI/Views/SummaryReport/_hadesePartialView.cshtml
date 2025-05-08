@@ -1,0 +1,109 @@
+﻿@using Zamyad.Exemption.Data.SocialDB;
+@model List<PersHadeseView>
+
+
+<div class="row">
+    @*table for Accident*@
+    <table class="table table-bordered mb-0">
+        <thead class="table-light">
+            <tr>
+                <th>رديف</th>
+                <th>مركز هزينه </th>
+                <th>نام واحد</th>
+                <th>
+                    عنوان شغل
+                </th>
+                <th>
+                    تاریخ وقوع حادثه
+                </th>
+                <th>
+                    موقعیت حادثه
+                </th>
+                <th>
+                    محل حادثه
+                </th>
+                <th>
+                    نوع حادثه
+                </th>
+                <th>
+                    نوع صدمه
+                </th>
+                <th>
+                    عضو صدمه دیده
+                </th>
+                <th>
+                    اعزام به
+                </th>
+                <th>
+                    نیاز به استراحت
+                </th>
+                <th>
+                    مدت تلف شده
+                </th>
+                <th>
+                    شرح حادثه
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int counter = 0;
+
+                foreach (var hadese in Model)
+                {
+                    <tr>
+                        <td>@(++counter)</td>
+                        <td>@hadese.CostCode</td>
+                        <td>@hadese.CostDesc</td>
+                        <td>onvane shoghl</td>
+                        <td>@hadese.AccDate</td>
+                        <td>@hadese.AccidentMogheyiat</td>
+                        <td>@hadese.AccidentMahal</td>
+                        <td>@hadese.AccType</td>
+                        <td>@hadese.InjuryType</td>
+                        <td>@hadese.BodyPart</td>
+                        <td>@hadese.DispatchedTo</td>
+                        <td>@hadese.NeedRest</td>
+                        <td>@hadese.WastedDuration</td>
+                        <td>@hadese.Description</td>
+                    </tr>
+                }
+
+                if (counter < 5)
+                {
+                    for (int i = counter; i < 5; i++)
+                    {
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                    }
+                }
+
+            }
+            
+            
+        </tbody>
+    </table>
+</div>
+
+<div class="row mt-0 mb-1">
+    <div class="border">
+        به پیوست مراجعه شود
+    </div>
+    
+</div>

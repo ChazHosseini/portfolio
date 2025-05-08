@@ -1,0 +1,171 @@
+﻿@model PersonnelInfoViewModel
+
+@{
+    ViewData["Title"] = "GetFullSummaryReport";
+}
+
+
+
+
+<div class="container">
+
+    <div class="border border-success text-center row">
+        <h1 class="text-primary">خلاصه پرونده پزشکی</h1>
+    </div>
+
+    <div class="row border">
+        <div class="col">
+            <div><img src="/Images/Zamyad.jpg" alt="آرم زامیاد" class="w-25 h-auto" /></div>
+
+            <div class="row">نام و نام خانوادگی: @(Model.FirstName) @(Model.LastName)</div>
+
+        </div>
+        <div class="col"></div>
+        <div class="col text-end">
+            <img style="width:35%;height:65%" src="data:image/jpg;base64,@(Html.Raw(Convert.ToBase64String((byte[])Model.PersImage.FileContents)))" alt="" />
+         
+        </div>
+    </div>
+    <div class="border row">
+        <!--start of div-->
+        <div class="row">
+            <div class="col">
+                شماره پرسنلي : @Model.PersNo
+            </div>
+            <div class="col">
+                تاريخ تولد : @Model.BirthDate
+            </div>
+            <div class="col">
+                نام پدر : @Model.FatherName
+            </div>
+            <div class="col">
+                شغل : @Model.JobDesc
+            </div>
+            <div class="col">
+                كدمركز هزينه: @Model.CostCode
+            </div>
+            <div class="col">
+                سوابق داخل :
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                محل صدور: @Model.SodCityDesc
+            </div>
+            <div class="col">
+                وضعيت تاهل: @Model.MarriedDesc
+            </div>
+            <div class="col">
+                سوابق ايثارگري :
+            </div>
+            <div class="col">
+                پست: @Model.PostDesc
+            </div>
+            <div class="col">
+                محل استقرار: @Model.TotCostDesc
+            </div>
+            <div class="col">
+                سوابق خارج : @Model.OutInsuDays
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                وضعیت نظام وظیفه :
+            </div>
+            <div class="col">
+                تاريخ استخدام : @Model.EmpDate
+            </div>
+            <div class="col">
+                نوع استخدام: @Model.EmployDesc
+            </div>
+            <div class="col">
+                مقطع تحصيلي: @Model.StudyGradeDesc
+            </div>
+            <div class="col">
+                واحد سازماني : @Model.DomainDesc
+            </div>
+            <div class="col">
+                صف/ ستاد: @Model.ProduceorsupportDesc
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                كد ملي : @Model.NationalCode
+
+            </div>
+            <div class="col">
+                شماره شناسنامه: @Model.IdNo
+            </div>
+            <div class="col">
+                شماره بيمه: @Model.InsuNo
+            </div>
+            <div class="col">
+                رشته تحصيلي: @Model.CourseDesc
+            </div>
+            <div class="col">
+                رده سازماني: @Model.RankDesc
+            </div>
+            <div class="col">
+                تعداد فرزند:
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col border">
+            محل سكونت: @Model.HomeAddress
+        </div>
+    </div>
+    <div class="row border">
+        <div class="col-2">
+            كد پستي : @Model.PostalCode
+        </div>
+        <div class="col-3">
+            تلفن منزل: @Model.HomePhoneNo
+        </div>
+        <div class="col-3">
+            تلفن همراه: @Model.MobileNo
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col border">
+            معاینات بدو استخدام
+        </div>
+    </div>
+
+    <div class="row bg-light">
+        <div class="col-2 border">
+            نظريه متخصص طب كار
+        </div>
+        <div class="col border">
+            @ViewBag.commentandbehdasht.Item1
+        </div>
+    </div>
+
+    <div class="row mb-1">
+        <div class="col-2 border">
+            نظریه بهداشت حرفه ای
+        </div>
+        <div class="col border">
+            @ViewBag.commentandbehdasht.Item2
+        </div>
+    </div>
+
+    <partial name="_exemptionPartialView.cshtml" for="exemptionlist" />
+    <div class="row mt-1">
+        <div class="border fw-bold">
+            سوابق حادثه
+        </div>
+    </div>
+    <partial name="_hadesePartialView.cshtml" for="hadeselist" />
+    <partial name="_restPartialView.cshtml" for="Restlist" />
+
+    <div class="text-center"><a href="/SummaryReport/GetSummaryReport"><button class="btn btn-primary mt-1">بازگشت به جستجو</button></a></div>
+
+
+</div>

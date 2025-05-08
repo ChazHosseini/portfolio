@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamyad.Exemption.Service", "Zamyad.Exemption.Service\Zamyad.Exemption.Service.csproj", "{462DC07D-A36B-4827-943A-97B16F03D473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamyad.Exemption.Data", "Zamyad.Exemption.Data\Zamyad.Exemption.Data.csproj", "{891BA831-0205-4AE1-9BD7-109920B4443A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamyad.Exemption.UI", "Zamyad.Exemption.UI\Zamyad.Exemption.UI.csproj", "{18C3E275-F9FC-48B9-838E-2AE65479C0C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{462DC07D-A36B-4827-943A-97B16F03D473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462DC07D-A36B-4827-943A-97B16F03D473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462DC07D-A36B-4827-943A-97B16F03D473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462DC07D-A36B-4827-943A-97B16F03D473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891BA831-0205-4AE1-9BD7-109920B4443A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891BA831-0205-4AE1-9BD7-109920B4443A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891BA831-0205-4AE1-9BD7-109920B4443A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891BA831-0205-4AE1-9BD7-109920B4443A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C3E275-F9FC-48B9-838E-2AE65479C0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C3E275-F9FC-48B9-838E-2AE65479C0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C3E275-F9FC-48B9-838E-2AE65479C0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C3E275-F9FC-48B9-838E-2AE65479C0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8F07CD5-15A5-481C-8408-9EA1C542794B}
+	EndGlobalSection
+EndGlobal
