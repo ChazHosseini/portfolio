@@ -38,25 +38,6 @@ My expertise includes:
 
 ---
 
-## Projects
-
-### 1. **Enterprise HR and Manufacturing Dashboards**
-- **Description**: Designed dashboards to provide mid-to-high-level managers with actionable insights into HR and manufacturing operations.
-- **Tools**: Power BI, SQL Server, Python
-- **Impact**: Improved decision-making processes through automated reporting.
-
-### 2. **Data Integration & Migration**
-- **Description**: Migrated and integrated data across systems using Microsoft SSIS for seamless workflows.
-- **Tools**: Microsoft SSIS, SQL Server
-- **Impact**: Enhanced data availability and accuracy for business-critical operations.
-
-### 3. **Predictive Modeling for Manufacturing Performance**
-- **Description**: Applied machine learning models to predict production bottlenecks and optimize manufacturing schedules.
-- **Tools**: Python (Scikit-learn), Excel
-- **Impact**: Reduced production delays by 15% through data-driven optimization.
-
----
-
 ## Certifications
 
 - **C# Programming**  
@@ -73,5 +54,4 @@ Feel free to explore this portfolio and reach out to discuss opportunities or co
 - **Email**: [chaz.ho16@gmail.com](mailto:chaz.ho16@gmail.com)  
 - **Phone**: +1 (604) 401-7627  
 - **Location**: BC, Canada  
-- **LinkedIn**: [https://www.linkedin.com/in/chaz16/](#)
 
