@@ -6,7 +6,7 @@ Welcome to my Data Analytics portfolio! My name is **Chaz Hosseini**, and I spec
 
 ## About Me
 
-I am an innovative and results-driven **Software and Data Analytics Specialist** with a strong foundation in **analytics, and software development**. With a Master of Professional Studies in Analytics (Artificial Machine Intelligence concentration) from Northeastern University, I bring a solid academic background and extensive professional experience.
+I am an innovative and results-driven **Software and Data Analytics Specialist** with a strong foundation in **analytics, and software development**. 
 
 My expertise includes:
 - Developing **data-driven solutions** using tools like Power BI and SSIS.
@@ -27,16 +27,6 @@ My expertise includes:
 
 ---
 
-## Education
-
-**Master of Professional Studies in Analytics**  
-*Northeastern University, Vancouver, BC, Canada (2023–2024)*  
-*Concentration: Artificial Machine Intelligence*  
-
-**Bachelor’s Degree in Information Technology Engineering**  
-*Azad University, Parand, Iran*
-
----
 
 ## Certifications
 
